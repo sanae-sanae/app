@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  input, button, select {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar button {
+    background-color: #ff4444;
+  }
+  
+  .navbar button:hover {
+    background-color: #cc0000;
+  }
+  
+  .login, .register, .home {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    input, button, select {
+      width: 100%;
+    }
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
